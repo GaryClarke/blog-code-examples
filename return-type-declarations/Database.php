@@ -17,4 +17,5 @@ class Database
     public function getNumberOfUsers(): int{
         return count($this->users);
     }
+
 }

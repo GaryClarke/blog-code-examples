@@ -11,4 +11,11 @@ $user2 =  new User("Daniel", 15, "Male", 1990);
 $database->addUser($user1);
 $database->addUser($user2);
 
-print $database->numberOfUsers();
+//print $database->getNumberOfUsers();
+
+$lastUserCount = 1;
+
+$newUsers = $database->getNumberOfUsers() - $lastUserCount;
+
+print $newUsers;
+
