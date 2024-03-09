@@ -6,6 +6,5 @@ require_once 'Father.php';
 
 $son = new Son();
 
-print $son->printSurname();
-
+//this will throw an error
 print $son->getFamilyName();
